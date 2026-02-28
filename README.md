@@ -20,11 +20,11 @@ O objetivo do projeto é praticar operações de banco de dados, organização d
 
 ## Estrutura do projeto
 
-main.py # Menu interativo
+main.py - Menu interativo
 
-database.py # Conexão com o banco de dados
+database.py - Conexão com o banco de dados
 
-crud.py # Funções CRUD
+crud.py - Funções CRUD
 
 ## Configuração do banco de dados
 
@@ -33,9 +33,7 @@ CREATE DATABASE banco_python;
 Crie a Tabela:
 CREATE TABLE vendas (
     idVendas INT AUTO_INCREMENT PRIMARY KEY,
-    
     nome_produto VARCHAR(100),
-    
     valor DECIMAL(10,2)
 
 Instalação:
